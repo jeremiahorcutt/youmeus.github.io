@@ -13,7 +13,11 @@ label{
 }
 .user1{
     background-color:#794c74;
+    border:2px solid #472d44;
+    border-radius: 5px;
 }
 .user2{
     background-color:#00818a;
+    border:2px solid #00474d;
+    border-radius: 5px;
 }
