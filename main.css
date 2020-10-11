@@ -50,3 +50,15 @@ h3{
     border:none;
     color:#472d44;
 }
+.save{
+    padding:5px;
+    border-radius: 10px;
+}
+#user1save{
+    background-color:#472d44;
+    color:#14ffe
+}
+#user2save{
+    background-color: #00474d;
+    color:#14ffec;
+}
