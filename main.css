@@ -71,4 +71,5 @@ h3{
 }
 .dinnerDiv{
     display:flex;
+    align-items:center;
 }
