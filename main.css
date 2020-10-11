@@ -109,3 +109,11 @@ input:focus{
     font-style:bold;
     font-size:16px;
 }
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+      main{
+          display:block;
+      }
+  }
