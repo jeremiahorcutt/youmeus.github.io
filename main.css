@@ -6,7 +6,7 @@ body{
 main{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 1500px 50px;
+    grid-template-rows: 50px 1390px;
 }
 h1{
     font-family: 'Dancing Script', cursive;
