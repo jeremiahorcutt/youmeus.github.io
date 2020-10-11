@@ -42,13 +42,13 @@ h3{
     width:99%;
     background-color:#794c74;
     border:none;
-    color:#472d44;
+    
 }
 .agenInput2{
     width:99%;
     background-color:#00818a;
     border:none;
-    color:#472d44;
+    
 }
 .save, #submit{
     padding:7px;
@@ -83,4 +83,10 @@ h3{
 }
 input:focus{
     outline:none;
+}
+.agenInput:focus{
+    color:#00474d;
+}
+.agenInput2:focus{
+    color:#472d44;
 }
