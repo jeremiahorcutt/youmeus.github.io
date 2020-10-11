@@ -85,6 +85,7 @@ h3{
     font-family: 'Indie Flower', cursive;
     font-style:bold;
     color:#14ffec;
+    font-size:30px;
 }
 input:focus{
     outline:none;
@@ -93,4 +94,5 @@ input:focus{
     color:white;
     font-family: 'Indie Flower', cursive;
     font-style:bold;
+    font-size:16px;
 }
