@@ -87,13 +87,8 @@ h3{
 input:focus{
     outline:none;
 }
-.agenInput:focus{
-    color:#00474d;
-    font-family: 'Dancing Script', cursive;
-    font-style:bold;
-}
-.agenInput2:focus{
-    color:#472d44;
+.agenInput:focus, .agenInput2:focus{
+    color:white;
     font-family: 'Dancing Script', cursive;
     font-style:bold;
 }
