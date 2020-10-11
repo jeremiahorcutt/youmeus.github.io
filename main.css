@@ -32,6 +32,17 @@ h3{
     font-style:italic;
     color:#14ffec;
 }
+.agenTime{
+    margin-bottom:2px;
+}
 .agendDiv{
     border-bottom:1px solid #14ffec;
+}
+.agenInput{
+    width:100%;
+    background-color:#794c74;
+}
+.agenInput2{
+    width:100%;
+    background-color:#00818a;
 }
