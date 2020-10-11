@@ -80,13 +80,20 @@ h3{
     border-bottom:2px solid #14ffec;
     margin-left:5px;
     margin-right:15px;
+    font-family: 'Dancing Script', cursive;
+    font-style:bold;
+    color:#14ffec;
 }
 input:focus{
     outline:none;
 }
 .agenInput:focus{
     color:#00474d;
+    font-family: 'Dancing Script', cursive;
+    font-style:bold;
 }
 .agenInput2:focus{
     color:#472d44;
+    font-family: 'Dancing Script', cursive;
+    font-style:bold;
 }
