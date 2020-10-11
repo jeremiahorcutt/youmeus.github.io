@@ -53,12 +53,18 @@ h3{
 .save{
     padding:5px;
     border-radius: 10px;
+    float:right;
+    margin-top:5px;
 }
 #user1save{
     background-color:#472d44;
-    color:#14ffe
+    color:#14ffec;
 }
 #user2save{
     background-color: #00474d;
     color:#14ffec;
+}
+#saveDinner{
+    background-color:#14ffec;
+    color:#323232;
 }
