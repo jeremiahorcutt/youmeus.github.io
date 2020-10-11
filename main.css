@@ -42,13 +42,15 @@ h3{
     width:99%;
     background-color:#794c74;
     border:none;
-    
+    color:white;
+    font-family: 'Indie Flower', cursive;
 }
 .agenInput2{
     width:99%;
     background-color:#00818a;
     border:none;
     color:white;
+    font-family: 'Indie Flower', cursive;
 }
 .save, #submit{
     padding:7px;
@@ -80,7 +82,7 @@ h3{
     border-bottom:2px solid #14ffec;
     margin-left:5px;
     margin-right:15px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
     font-style:bold;
     color:#14ffec;
 }
@@ -89,6 +91,6 @@ input:focus{
 }
 .agenInput:focus, .agenInput2:focus{
     color:white;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
     font-style:bold;
 }
