@@ -201,7 +201,9 @@ input:focus{
         width: 99%;
         background-color:#d6d1d1;
         border: none;
+        border-bottom: 1px solid #F2AB34;
         font-family: 'Indie Flower', cursive;
+        padding-bottom:2px;
     }
 @media screen and (max-width: 620px)  {
       main{
