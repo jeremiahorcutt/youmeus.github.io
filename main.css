@@ -126,6 +126,7 @@ input:focus{
     top: 30px;
     right: -300px;
     background: #d6d1d1;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .5);
     /* Animation  */
     transition-property: all;
     transition-duration: .5s;
@@ -148,8 +149,6 @@ input:focus{
     left: -40px;
     height: 200px;
     width: 40px;
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-    box-shadow: 0 3px 15px rgba(0, 0, 0, .5);
     background: #F2AB34;
     border-radius: 15px 0px 0px 15px
   }
