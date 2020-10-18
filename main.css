@@ -50,7 +50,8 @@ h4{
     font-size:26px;
     text-decoration: underline;
     font-style:italic;
-    color: #F2AB34;   
+    color: #F2AB34;  
+    text-align: center; 
 }
 .agenTime{
     margin-bottom:2px;
@@ -179,7 +180,7 @@ input:focus{
   }
   
   .modal-body {
-    height: 400px;
+    height: 620px;
   }
   
   section {
