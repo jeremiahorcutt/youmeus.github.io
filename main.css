@@ -118,6 +118,7 @@ input:focus{
     height: 800px;
     top: 30px;
     right: -300px;
+    background: #5e5b5b;
     /* Animation  */
     transition-property: all;
     transition-duration: .5s;
