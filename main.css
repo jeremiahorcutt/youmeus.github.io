@@ -92,7 +92,7 @@ h4{
     background-color:#14ffec;
     color:#323232;
 }
-.dinnerDiv{
+#dinnerform{
     display:flex;
     align-items:center;
 }
