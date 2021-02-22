@@ -17,6 +17,7 @@ this.$dinnerSlideOut.find('.dinnerSlideOutTab').on('click', function() {
 window.onload = function() {
   let usera = "a"
   createDay(usera);
+  grocerylist();
 }
 
 //daily schedule generator
