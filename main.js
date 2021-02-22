@@ -55,6 +55,20 @@ function createDay(a){
 
 
 //grocery list generator
-function createDay2(){
+function grocerylist(){
+  for(let i = 0; i < 25; i++){
+    let groceryContainer = document.createElement('div');
+    groceryContainer.setAttribute('id', 'g' + i);
+    groceryContainer.setAttribute('class', 'groceryDiv');
 
+    let groceryItem = document.createElement('input');
+    groceryItem.setAttribute('type', 'text');
+    groceryItem.setAttribute('id', "gi" + i);
+    groceryItem.setAttribute('name', "gi" + i);
+    groceryItem.setAttribute('class', 'gInput');
+
+    groceryContainer.appendChild(groceryItem);
+    let form = document.querySelector("#groceryform");
+    form.appendChild(groceryContainer);
 }
+};
