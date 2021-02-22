@@ -7,6 +7,13 @@ this.$slideOut.find('.slideOutTab').on('click', function() {
   $("#slideOut").toggleClass('showSlideOut');
 });
 
+this.$dinnerSlideOut = $('#dinnerSlideOut');
+
+// Slideout show
+this.$dinnerSlideOut.find('.dinnerSlideOutTab').on('click', function() {
+  $("#dinnerSlideOut").toggleClass('showDinnerSlideOut');
+});
+
 window.onload = function() {
   let usera = "a"
   createDay(usera);
