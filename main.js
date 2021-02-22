@@ -13,7 +13,7 @@ function createDay(a){
   let media = 0;
   let ap = "a";
   for(let i = 0; i < 25; i++){
-    let time = createElement('h2');
+    let time = createElement('h3');
     let schedContainer = createElement('div');
     schedContainer.setAttribute('id', i + 'container' + a);
     schedContainer.setAttribute('class', 'agendDiv');
