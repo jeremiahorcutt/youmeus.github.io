@@ -8,8 +8,6 @@ this.$slideOut.find('.slideOutTab').on('click', function() {
 });
 
 this.$dinnerSlideOut = $('#dinnerSlideOut');
-
-// Slideout show
 this.$dinnerSlideOut.find('.dinnerSlideOutTab').on('click', function() {
   $("#dinnerSlideOut").toggleClass('showDinnerSlideOut');
 });
