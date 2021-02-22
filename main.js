@@ -7,6 +7,10 @@ this.$slideOut.find('.slideOutTab').on('click', function() {
   $("#slideOut").toggleClass('showSlideOut');
 });
 
+window.onload = function() {
+  createDay(a);
+}
+
 //daily schedule generator
 function createDay(a){
   let start = 8;
@@ -40,7 +44,7 @@ function createDay(a){
     schedContainer.appendChild(sched);
     time.appendChild(schedContainer); 
   }
-  let form = document.querySelector("#user1form");
+  let form = document.querySelector("#user" + a + "form");
   form.appendChild(time);
 }
 
