@@ -162,7 +162,6 @@ input:focus{
     left: -40px;
     height: 200px;
     width: 40px;
-    background: #F2AB34;
     border-radius: 15px 0px 0px 15px
   }
   
@@ -177,11 +176,11 @@ input:focus{
     -o-transform: rotate(270deg);
     writing-mode: lr-tb;
   }
-  .dinnerslideOutTab div{
+  .dinnerslideOutTab div, .dinnerslideOutTab{
     background: #794c74;
   }
 
-  .slideOutTab div{
+  .slideOutTab div, .slideOutTab{
     background: #F2AB34;
   }
   
