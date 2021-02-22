@@ -18,12 +18,12 @@ function createDay(a){
   let media = 0;
   let ap = "a";
   for(let i = 0; i < 25; i++){
-    let time = createElement('h3');
-    let schedContainer = createElement('div');
+    let time = document.createElement('h3');
+    let schedContainer = document.createElement('div');
     schedContainer.setAttribute('id', i + 'container' + a);
     schedContainer.setAttribute('class', 'agendDiv');
 
-    let sched = createElement('input');
+    let sched = document.createElement('input');
     sched.setAttribute('type', 'text');
     sched.setAttribute('id', i + 'sched' + a);
     sched.setAttribute('name', i + 'sched' + a);
