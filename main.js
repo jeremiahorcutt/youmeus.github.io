@@ -8,7 +8,7 @@ this.$slideOut.find('.slideOutTab').on('click', function() {
 });
 
 this.$dinnerSlideOut = $('#dinnerSlideOut');
-this.$dinnerSlideOut.find('.dinnerSlideOutTab').on('click', function() {
+this.$dinnerSlideOut.find('.dinnerslideOutTab').on('click', function() {
   $("#dinnerSlideOut").toggleClass('showDinnerSlideOut');
 });
 
