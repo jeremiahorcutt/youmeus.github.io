@@ -195,7 +195,7 @@ input:focus{
     width: 100%;
   }
   
-  .modal-body {
+  .modal-body, .dinner-body {
     height: 620px;
   }
   
