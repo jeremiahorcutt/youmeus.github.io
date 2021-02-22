@@ -30,10 +30,10 @@ function createDay(a){
     sched.setAttribute('class', 'agenInput');
 
     if((i + 2) % 2 == 0){
-      media = 3;
+      media = 0;
       start += 1;
     }else{
-      media = 0;
+      media = 3;
     };
 
     if(i > 7){
