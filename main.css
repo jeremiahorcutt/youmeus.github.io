@@ -165,6 +165,16 @@ input:focus{
     background: #F2AB34;
     border-radius: 15px 0px 0px 15px
   }
+
+  .dinnerSlideOutTab {
+    margin-top: 50px;
+    position: absolute;
+    left: -40px;
+    height: 200px;
+    width: 40px;
+    background: #472d44;
+    border-radius: 15px 0px 0px 15px
+  }
   
   .slideOutTab div {
     text-align: center;
