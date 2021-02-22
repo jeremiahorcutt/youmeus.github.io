@@ -118,7 +118,7 @@ input:focus{
     font-style:bold;
     font-size:16px;
 }
-/*grocery tab*/
+/*grocery and dinner tab*/
 
 #slideOut {
     position: fixed;
@@ -133,7 +133,19 @@ input:focus{
     transition-duration: .5s;
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   }
-  
+  #dinnerSlideOut{
+    position: fixed;
+    width: 300px;
+    height: 600px;
+    top: 30px;
+    right: -300px;
+    background: #d6d1d1;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .5);
+    /* Animation  */
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  }
   
   /* Display slideOut */
   
@@ -193,7 +205,7 @@ input:focus{
           vertical-align: middle;
    
         }
-    #tablabel{
+    #tablabel, #tablabel2{
         font-weight:bold;
         font-size:16px;
     }
