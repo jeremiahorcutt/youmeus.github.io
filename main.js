@@ -8,7 +8,8 @@ this.$slideOut.find('.slideOutTab').on('click', function() {
 });
 
 window.onload = function() {
-  createDay(a);
+  let usera = "a"
+  createDay(usera);
 }
 
 //daily schedule generator
