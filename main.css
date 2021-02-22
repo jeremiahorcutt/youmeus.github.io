@@ -171,14 +171,19 @@ input:focus{
     position: relative;
     right: 70px;
     top: 80px;
-    background: #F2AB34;
     width: 180px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -o-transform: rotate(270deg);
     writing-mode: lr-tb;
   }
+  .dinnerslideOutTab div{
+    background: #794c74;
+  }
 
+  .slideOutTab div{
+    background: #F2AB34;
+  }
   
   /* None relevant included styling */
 
