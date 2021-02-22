@@ -156,7 +156,7 @@ input:focus{
   
   /* Tab */
   
-  .slideOutTab {
+  .slideOutTab, .dinnerslideOutTab {
     margin-top: 50px;
     position: absolute;
     left: -40px;
@@ -165,18 +165,8 @@ input:focus{
     background: #F2AB34;
     border-radius: 15px 0px 0px 15px
   }
-
-  .dinnerslideOutTab {
-    margin-top: 50px;
-    position: absolute;
-    left: -40px;
-    height: 200px;
-    width: 40px;
-    background: #472d44;
-    border-radius: 15px 0px 0px 15px
-  }
   
-  .slideOutTab div {
+  .slideOutTab div, .dinnerslideOutTab div {
     text-align: center;
     position: relative;
     right: 70px;
@@ -188,7 +178,7 @@ input:focus{
     -o-transform: rotate(270deg);
     writing-mode: lr-tb;
   }
-  
+
   
   /* None relevant included styling */
 
