@@ -14,7 +14,7 @@ window.onload = function() {
 
 //daily schedule generator
 function createDay(a){
-  let start = 8;
+  let start = 7;
   let media = 0;
   let ap = "a";
   for(let i = 0; i < 25; i++){
