@@ -31,6 +31,7 @@ function createDay(a){
 
     if(i % 2 == 0){
       media = 3;
+      start += 1;
     }else{
       media = 0;
     };
@@ -44,9 +45,9 @@ function createDay(a){
     time.textContent = start + ":" + media + "0" + ap + ".m.";
     schedContainer.appendChild(sched);
     time.appendChild(schedContainer); 
-  }
-  let form = document.querySelector("#user" + a + "form");
+    let form = document.querySelector("#user" + a + "form");
   form.appendChild(time);
+  }
 }
 
 
